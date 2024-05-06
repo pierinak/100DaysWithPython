@@ -1,8 +1,13 @@
-num = float(input("Digite um número: "))
+print ("Welcome Back !!")
 
-if num > 0:
-    print("Número positivo")
-elif num == 0:
-    print("Zero")
-else:
-    print("Número negativo")
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
+if username == "admin" and password == "admin":
+  print ("Hi admin")
+elif username == "user" and password == "user":
+  print ("Hi user")
+elif username == "   " and password == "   ":
+  print ("Hi guest")
+else :
+  print ("Well, you not have access")
